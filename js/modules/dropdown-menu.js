@@ -7,7 +7,7 @@ export default class DropdownMenu {
     if (events === undefined) this.events = ['touchstart', 'click'];
     else this.events = events;
 
-    this.activeClass = 'ative';
+    this.activeClass = 'active';
     this.activeDropdownMenu = this.activeDropdownMenu.bind(this);
   }
 
